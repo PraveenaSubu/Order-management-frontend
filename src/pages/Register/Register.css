@@ -1,0 +1,43 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.register h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+
+.lottie {
+    height: 400px;
+}
+
+.inputfield {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.inputfield:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.click {
+    color: white;
+    padding: 5px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .layout {
+        margin: 0 15px;
+    }
+}
